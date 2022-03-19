@@ -1,0 +1,3 @@
+﻿  Template2.cpp
+D:\MyCode\3_19_C++_Template2\Template2\Template2.cpp(83,9): warning C4101: “s1”: 未引用的局部变量
+  Template2.vcxproj -> D:\MyCode\3_19_C++_Template2\Template2\x64\Debug\Template2.exe
