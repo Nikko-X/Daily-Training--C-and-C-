@@ -26,7 +26,7 @@ stringBad::stringBad(const char* s)
 	cout << "有参构造一个字符串：" << str << " 编号为:" << num_strings << std::endl;
 }
 
-std::ostream& operator<<(std::ostream os, const stringBad& st)
+std::ostream& operator<<(std::ostream& os, const stringBad& st)
 {
 	os  << st.str;	//传进来是一个引用
 	return os;
@@ -84,12 +84,11 @@ stringBad::~stringBad()
 	--num_strings;
 }
 
-//void callme1(stringBad & rbs)
-//{
-//	cout << "召回显示：";
-//	cout << rbs;
-//}
-
+void callme1(stringBad & rbs)
+{
+	cout << "召回显示：";
+	cout << rbs;
+}
 //void callme2(stringBad st)
 //{
 //	cout << st;

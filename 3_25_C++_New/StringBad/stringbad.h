@@ -1,14 +1,14 @@
 #ifndef STRINGBAD_H_
 #define STRINGBAD_H_
 #include <iostream>
-//void callme1(stringBad & );
+void callme1(stringBad & );
 //void callme2(stringBad);
 class stringBad
 {
 public:
 	stringBad();
 	stringBad(const char* s);
-	friend std::ostream& operator<<(std::ostream os, const stringBad& st);
+	friend std::ostream & operator<<(std::ostream& os, const stringBad& st);
 	friend bool operator<(const stringBad& st1, const stringBad& st2);
 	friend bool operator>(const stringBad& st1, const stringBad& st2);
 	friend bool operator==(const stringBad& st1, const stringBad& st2);
