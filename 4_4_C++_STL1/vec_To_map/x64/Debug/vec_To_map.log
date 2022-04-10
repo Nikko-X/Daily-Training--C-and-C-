@@ -1,0 +1,5 @@
+﻿  vec_To_map.cpp
+D:\MyCode\Training_C-and-C-plus-plus\4_4_C++_STL1\vec_To_map\vec_To_map.cpp(54,32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MyCode\Training_C-and-C-plus-plus\4_4_C++_STL1\vec_To_map\vec_To_map.cpp(63,28): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\MyCode\Training_C-and-C-plus-plus\4_4_C++_STL1\vec_To_map\vec_To_map.cpp(72,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  vec_To_map.vcxproj -> D:\MyCode\Training_C-and-C-plus-plus\4_4_C++_STL1\vec_To_map\x64\Debug\vec_To_map.exe
